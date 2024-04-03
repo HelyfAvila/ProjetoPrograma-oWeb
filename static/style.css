@@ -1,0 +1,28 @@
+/* styles.css */
+
+.result-box {
+    background-color: #ADD8E6; /* Cor de fundo azul mais escuro */
+    padding: 20px; /* Espaçamento interno para a caixa */
+    border-radius: 5px; /* Borda arredondada */
+    text-align: center; /* Centralizar o conteúdo */
+    margin-top: 20px; /* Adiciona uma margem superior para criar espaço */
+
+}
+
+.result {
+    display: flex;
+    flex-direction: column; /* Para alinhar o ícone abaixo do resultado */
+    align-items: center; /* Centralizar os elementos horizontalmente */
+
+}
+
+.result h1 {
+    margin-bottom: 10px; /* Adicione a margem desejada abaixo do título */
+    font-size: 24px; /* Aumenta o tamanho do texto conforme necessário */
+    font-weight: bold; /* Define a fonte em negrito */
+}
+
+.result img {
+    width: 300px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: auto; /* Para manter a proporção da imagem */
+}
